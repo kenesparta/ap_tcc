@@ -53,10 +53,14 @@
             <h2 class="titulo-slide"> Objetivos </h2>
             <hr class="style-five">
             <ul style="list-style-type: disc">
-                <li class="fragment fade-up"> Extrair &dbkarow; Classificar &dbkarow; Reconhecer</li>
                 <li class="fragment fade-up"> Extrair: Artigos da Web</li>
                 <li class="fragment fade-up"> Classificar: Artigos + Web Logs</li>
                 <li class="fragment fade-up"> Reconhecer: Padrões de acessos a partir de Web Logs</li>
+                <li class="fragment fade-up">
+                    Aplicação Web em Django <br>
+                    <img style="display: block; padding: 25px; margin-left: auto; margin-right: auto" src="img/django.png" width="200">
+                </li>
+
             </ul>
         </section>
         <section data-background-image="img/bgrd.png">
@@ -64,7 +68,7 @@
                 <h2 class="titulo-slide"> Web logs? </h2>
                 <hr class="style-five">
                 <h3 class="sub-titulo" style="margin-bottom: 50px">Composição dos Web logs da Wikipédia</h3>
-                <img class="wiki" src="img/modelo_arquivo_wikipedia.svg" width="1000px">
+                <img class="wiki" src="img/modelo_arquivo_wikipedia.svg" width="1000">
             </section>
             <section>
                 <p>
@@ -72,7 +76,7 @@
                         <a target="_blank" href="https://dumps.wikimedia.org/other/pagecounts-raw/">Wiki Web logs</a>
                     </small>
                 </p>
-                <iframe style="border: solid rgba(75, 0, 130, .5)" width="1024px" height="550"
+                <iframe style="border: solid rgba(75, 0, 130, .5)" width="1024" height="550"
                         data-src="https://wikitech.wikimedia.org/wiki/Analytics/Data/Pagecounts-raw">
                 </iframe>
             </section>
@@ -80,17 +84,17 @@
         <section data-background-image="img/bgrd.png">
             <h2 class="titulo-slide"> Fundamentação teórica </h2>
             <hr class="style-five">
-            <img class="petriTeoria" src="img/rede_petri_teoria.svg" width="600px">
+            <img class="petriTeoria" src="img/rede_petri_teoria.svg" width="600">
         </section>
         <section data-background-image="img/bgrd.png">
             <h2 class="titulo-slide"> Metodologia CRISP-DM </h2>
             <hr class="style-five">
-            <img class="crisp" src="img/crisp-dm.svg" width="800px">
+            <img class="crisp" src="img/crisp-dm.svg" width="800">
         </section>
         <section data-background-image="img/bgrd.png">
-        <h2 class="titulo-slide"> Atividades da aplicação </h2>
-        <hr class="style-five">
-        <img class="petriApp" src="img/rede_petri_funcionamento.svg" width="1050px">
+            <h2 class="titulo-slide"> Atividades da aplicação </h2>
+            <hr class="style-five">
+            <img class="petriApp" src="img/rede_petri_funcionamento.svg" width="1050">
         </section>
         <section data-background-image="img/bgrd.png">
             <h1 class="titulo"> OBRIGADO! </h1>
@@ -121,14 +125,14 @@
     });
 </script>
 <script>
-    document.querySelector( '.petriTeoria').addEventListener( 'click', function( event ) {
+    document.querySelector('.petriTeoria').addEventListener('click', function (event) {
         event.preventDefault();
-        zoom.to({ element: event.target, scale: 2.5 });
-    } );
-    document.querySelector( '.petriApp').addEventListener( 'click', function( event ) {
+        zoom.to({element: event.target, scale: 2.5});
+    });
+    document.querySelector('.petriApp').addEventListener('click', function (event) {
         event.preventDefault();
-        zoom.to({ element: event.target, scale: 2.5 });
-    } );
+        zoom.to({element: event.target, scale: 2.5});
+    });
 </script>
 </body>
 </html>
