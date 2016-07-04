@@ -40,6 +40,7 @@ h2.titulo-slide {
 h3.sub-titulo{
     color: rgb(138,43,226);
     font-weight: 500;
+    margin-bottom: 50px
 }
 
 img.git {
@@ -48,6 +49,16 @@ img.git {
 }
 
 img.git:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img.icones {
+    opacity: 0.4;
+    filter: alpha(opacity=0.4); /* For IE8 and earlier */
+}
+
+img.icones:hover {
     opacity: 1;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
