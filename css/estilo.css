@@ -45,20 +45,21 @@ h3.sub-titulo{
 
 img.git {
     opacity: 0.5;
-    filter: alpha(opacity=0.5); /* For IE8 and earlier */
+    filter: alpha(opacity=0.5);
 }
 
 img.git:hover {
     opacity: 1;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
+    filter: alpha(opacity=100);
 }
 
 img.icones {
     opacity: 0.4;
-    filter: alpha(opacity=0.4); /* For IE8 and earlier */
+    filter: alpha(opacity=0.4);
 }
 
 img.icones:hover {
     opacity: 1;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
+    filter: alpha(opacity=100);
+    cursor: none;
 }
